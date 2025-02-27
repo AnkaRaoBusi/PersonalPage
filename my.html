@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <div class="container">
+            <img src="passpsize.jpg" alt="Profile Picture" class="profile-pic">
+            <h1 class="fade-in">Hi, I'm <span>BUSI ANKA RAO</span></h1>
+            <p class="slide-in">Web Developer | Designer | Tech Enthusiast</p>
+            <a href="Ankarao83oneP.pdf" class="resume-btn" target="_blank">View Resume</a>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate web developer skilled in HTML, CSS, JavaScript, Java, Python, SQL, and more.</p>
+    </section>
+
+    <!-- OBJECTIVE SECTION -->
+    <section class="objective">
+        <h2>Objective</h2>
+        <p>To build a career in a growing organization where I can get opportunities to prove my abilities, accept challenges, and contribute my ideas with dedication and hard work.</p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-bar"><span class="skill-name">HTML</span><div class="progress"><div class="progress-fill html"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">CSS</span><div class="progress"><div class="progress-fill css"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">JavaScript</span><div class="progress"><div class="progress-fill js"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Java</span><div class="progress"><div class="progress-fill java"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Python</span><div class="progress"><div class="progress-fill python"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">SQL</span><div class="progress"><div class="progress-fill sql"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Bootstrap</span><div class="progress"><div class="progress-fill bootstrap"></div></div></div>
+        <div class="skill-bar"><span class="skill-name">Figma</span><div class="progress"><div class="progress-fill figma"></div></div></div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="experience">
+        <h2>Experience</h2>
+        <div class="exp-card">
+            <h3>Software Development Intern</h3>
+            <p><strong>Bluestock Fintech</strong> | 2 months</p>
+            <p>Worked on the IPO Web Application, improving user experience and accessibility.</p>
+            <a href="BSFTEN653.jpg" class="cert-btn" target="_blank">View Certificate</a>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3 onclick="toggleProject(this)">IPO Web Application Development</h3>
+            <p>Developed a web application for Bluestock Fintech, ensuring smooth user interactions and real-time updates.</p>
+            <p class="project-details">This IPO Web Application is designed to facilitate companies offering shares to the public while enabling investors to subscribe seamlessly.</p>
+        </div>
+        <div class="project-card">
+            <h3 onclick="toggleProject(this)">Personal Webpage</h3>
+            <p>Designed and developed an interactive personal portfolio with animations.</p>
+            <p class="project-details">This portfolio website showcases my skills, projects, and experiences in a dynamic, visually appealing layout.</p>
+        </div>
+        <div class="project-card">
+            <h3 onclick="toggleProject(this)">Pothole Finders</h3>
+            <p>A web-based solution to identify and report potholes using geolocation and image recognition.</p>
+            <p class="project-details">This project uses a combination of GPS tracking and AI-powered image recognition to detect potholes and report them to authorities.</p>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="certifications">
+        <h2>Certifications</h2>
+        <div class="cert-card">
+            <h3>Juniper Networking and Cloud</h3>
+            <p>Proficient in Juniper SRX firewalls, security policies, VPNs, and attack mitigation techniques.</p>
+                <p>Hands-on experience with Junos CLI configuration and troubleshooting.</p>
+            <a href="junipernetworkcert.pdf" class="cert-btn" target="_blank">View Certificate</a>
+        </div>
+        <div class="cert-card">
+            <h3>Palo Alto Cyber Security</h3>
+            <p>Expertise in designing, deploying, configuring, and troubleshooting Palo Alto Network security platforms.</p>
+                <p>Knowledge of firewall technologies, security policies, VPNs, and threat prevention.</p>
+            <a href="paloaltocybercert.pdf" class="cert-btn" target="_blank">View Certificate</a>
+        </div>
+        <div class="cert-card">
+            <h3>Google Android Developer</h3>
+            <p>Proficient in Android app development using Java, UI/UX design.</p>
+                <p> Hands-on experience with Room database, MVVM architecture.</p>
+            <a href="Googleandroidcert.pdf" class="cert-btn" target="_blank">View Certificate</a>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:ankarao.busi7@gmail.com">ankarao.busi7@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917288928390">+91 7288928390</a></p>
+        <p>Address: 3-30, Pedagarlapadu, Palnadu Dist., Andhra Pradesh, India 522437</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Busi Anka Rao. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleProject(element) {
+            const details = element.nextElementSibling.nextElementSibling;
+            details.classList.toggle("expanded");
+        }
+    </script>
+
+</body>
+</html>

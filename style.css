@@ -1,0 +1,249 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: #0088cc;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+h1 span {
+    color: #ffd700;
+}
+
+.resume-btn {
+    display: inline-block;
+    background: #ffd700;
+    color: #333;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.resume-btn:hover {
+    background: #ffcc00;
+}
+
+/* About Section */
+.about {
+    background: #b4c5ce;
+    padding: 40px;
+    text-align: center;
+   
+    
+}
+/* Objective Section */
+.objective {
+    background: #b4c5ce;
+    padding: 40px;
+    text-align: center;
+    
+    
+}
+
+/* Skills Section */
+.skills {
+    background: #b4c5ce;
+    padding: 40px;
+    text-align: center;
+}
+
+.skill-bar {
+    margin: 10px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.progress {
+    background: #b4c5ce;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+}
+
+.html { width: 90%; background: #ff5733; }
+.css { width: 85%; background: #4285f4; }
+.js { width: 75%; background: #f4b400; }
+.java { width: 85%; background: #007396; }
+.python { width: 70%; background: #9f4e4e; }
+.sql { width: 80%; background: #5b1d32; }
+.bootstrap { width: 70%; background: #1b7344; }
+.figma { width: 75%; background: #413107; }
+
+/* Experience Section */
+.experience {
+    background: #b4c5ce;
+    padding: 40px;
+    text-align: center;
+    
+    
+}
+
+.exp-card {
+    background: #b4c5ce;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cert-btn {
+    display: inline-block;
+    background: #ffd700;
+    color: #333;
+    padding: 8px 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.cert-btn:hover {
+    background: #005f99;
+}
+
+/* Projects Section */
+.projects {
+    background: #b4c5ce;
+    padding: 40px;
+    text-align: center;
+}
+
+.project-card {
+    background: #0088cc;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.toggle-btn {
+    background: #ffffff;
+    color: rgb(15, 3, 3);
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.toggle-btn:hover {
+    background: #ffd700;
+}
+
+.project-details {
+    display: none;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Contact Section */
+.contact {
+    background: #fff;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.contact a {
+    color: #0088cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #0088cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.project-details {
+    display: none;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.project-details.expanded {
+    display: block;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+/* Certifications Section */
+.certifications {
+    padding: 20px;
+    background-color: #b4c5ce;
+    text-align: center;
+}
+
+.cert-card {
+    background: #0088cc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cert-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 10px;
+    background: #ffd700;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
